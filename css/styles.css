@@ -12,25 +12,33 @@ body {
     background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
 }
 
-p {
+p{
 	padding: 10px;
-	}
+}
 
+.footer{
+	font-size: 80%;
+	font-style: italic;
+	border-top: 1px;
+	padding: 10px;
+	color: black; 
+	border-style: solid;
+	border-color: gray;
+}
 .content-box{
-		width:75%;
+		width:80%;
 		background-color: #FFF;
 		margin: 0 auto;
 		box-shadow: 2px 2px 6px #555;
 	}
 
-	.header{
+	.headering{
 		font-family: 'Boogaloo', sans-serif;
 		font-size: 36px;
 		color: #116189;
-		text-align: left;
 	}
 
 .gears{
@@ -38,17 +46,24 @@ p {
 		margin-right: 10px;
 		margin-bottom: 20px;
 		margin-left: 20px;
+		margin-top: 10px;
 }
 
 .subheading{
 text-align: left;
 font-size: 120%;
 font-style:italic;
-text-align: left;
 }
 
+.box{
+	float:right;
+}
+
+.navibar{
+	text-align: left;
+}
 nav{
-	padding-top: 30px;
+	padding: 5px;
 }
 
 nav ul{
