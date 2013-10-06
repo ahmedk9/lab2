@@ -24,9 +24,11 @@ p{
 	font-style: italic;
 	border-top: 1px;
 	padding: 10px;
-	color: black; 
 	border-style: solid;
-	border-color: gray;
+	border-color: #C0C0C0;
+	width: 95%;
+	margin-left: 5px;
+
 }
 .content-box{
 		width:80%;
@@ -57,6 +59,7 @@ font-style:italic;
 
 .box{
 	float:right;
+	display: inline;
 }
 
 .navibar{
@@ -97,4 +100,11 @@ nav ul{
 		background-color: #FF9D45;
 		border-radius: 5px;
 		margin: 0 auto;
+	}
+
+	.footer a:link{
+		text-decoration: none;
+	}
+	.footer a:hover{
+		text-decoration: underline;
 	}
